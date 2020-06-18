@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/milktea', function () {
-    return view('Thank You');
+Route::get('/ui', function () {
+    return view('ui');
 });
+
